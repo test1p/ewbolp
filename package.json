@@ -7,10 +7,13 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "export": "nuxt export",
-    "serve": "nuxt serve"
+    "serve": "nuxt serve",
+    "generate": "nuxt build && nuxt export"
   },
   "dependencies": {
+    "@mdi/font-build": "^1.8.5",
     "@nuxtjs/axios": "^5.11.0",
+    "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
     "nuxt": "^2.13.0"
   },
